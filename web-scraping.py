@@ -23,4 +23,3 @@ for result in soup.find_all('li', {'class': 'knswli need-get-value-facebook clea
     link = result.find('a', {'class': 'kscliw-ava'})['href']
     print('https://kenh14.vn' + link + '\n')
 
-# print(result.prettify())
